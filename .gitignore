@@ -1,0 +1,20 @@
+.DS_Store
+Thumbs.db
+node_modules/
+
+# local agent/editor tooling, not site content
+.claude/
+
+# Internal docs — never commit. The repo is uploaded whole to the host, so
+# anything committed here is readable at the public domain. Keep them on
+# disk, out of the repo. Same convention as BLUZG.
+context.md
+CLAUDE.md
+*_deployment_guide.md
+*.xlsx
+
+# Secrets
+.env
+.env.*
+*.pem
+*.key
